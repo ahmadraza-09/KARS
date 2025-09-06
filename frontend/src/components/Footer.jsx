@@ -115,14 +115,13 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <p className="text-gray-400">
-                  123 Water Street, Clean City,
-                  <br />
-                  State - 123456
+                  Noida near by sector 51 metro station, Hoshiyarpur Uttar
+                  Pradesh 201303
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <p className="text-gray-400">+91 9876543210</p>
+                <p className="text-gray-400">+91 9310089130</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
@@ -130,7 +129,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-red-400" />
-                <p className="text-gray-400">Emergency: +91 9876543211</p>
+                <p className="text-gray-400">Emergency: +91 9310089130</p>
               </div>
             </div>
           </div>

@@ -28,8 +28,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-blue-600" />,
       title: "Phone",
-      details: ["+91 9876543210", "+91 8765432109"],
-      action: "tel:+919876543210",
+      details: ["+91 9310089130", "+91 9310089130"],
+      action: "tel:+919310089130",
     },
     {
       icon: <Mail className="w-6 h-6 text-blue-600" />,
@@ -40,8 +40,11 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6 text-blue-600" />,
       title: "Address",
-      details: ["123 Water Street", "Clean City, State - 123456"],
-      action: "#",
+      details: [
+        "Noida near by sector 51 metro station",
+        "Hoshiyarpur Uttar Pradesh 201303",
+      ],
+      action: "https://maps.app.goo.gl/KgnNYYNz7EQvtupL8",
     },
     {
       icon: <Clock className="w-6 h-6 text-blue-600" />,
@@ -289,85 +292,6 @@ const Contact = () => {
                     <p className="text-gray-500">Interactive Map</p>
                     <p className="text-sm text-gray-400">Visit our location</p>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Branch Locations */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Our Branch Locations
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Visit any of our conveniently located branches for consultation
-              and support.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Mumbai Branch
-              </h3>
-              <div className="space-y-3 text-gray-600">
-                <div className="flex items-start space-x-3">
-                  <MapPin className="w-5 h-5 text-blue-600 mt-1" />
-                  <p>456 Water Plaza, Andheri East, Mumbai - 400069</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="w-5 h-5 text-blue-600" />
-                  <p>+91 9876543211</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Clock className="w-5 h-5 text-blue-600" />
-                  <p>Mon-Sat: 9:00 AM - 7:00 PM</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Delhi Branch
-              </h3>
-              <div className="space-y-3 text-gray-600">
-                <div className="flex items-start space-x-3">
-                  <MapPin className="w-5 h-5 text-blue-600 mt-1" />
-                  <p>
-                    789 Clean Water Center, Connaught Place, New Delhi - 110001
-                  </p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="w-5 h-5 text-blue-600" />
-                  <p>+91 9876543212</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Clock className="w-5 h-5 text-blue-600" />
-                  <p>Mon-Sat: 9:00 AM - 7:00 PM</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Bangalore Branch
-              </h3>
-              <div className="space-y-3 text-gray-600">
-                <div className="flex items-start space-x-3">
-                  <MapPin className="w-5 h-5 text-blue-600 mt-1" />
-                  <p>321 Tech Park, Whitefield, Bangalore - 560066</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="w-5 h-5 text-blue-600" />
-                  <p>+91 9876543213</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Clock className="w-5 h-5 text-blue-600" />
-                  <p>Mon-Sat: 9:00 AM - 7:00 PM</p>
                 </div>
               </div>
             </div>

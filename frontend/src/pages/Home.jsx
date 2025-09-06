@@ -67,15 +67,18 @@ const Home = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                  Pure Water
-                  <span className="text-cyan-300"> Solutions</span>
+                  Kishore All
+                  <span className="text-cyan-300"> RO</span>
                   <br />
-                  for Your Home
+                  Services for Your Home
                 </h1>
                 <p className="text-xl text-blue-100 leading-relaxed">
-                  Experience the difference of premium reverse osmosis water
-                  treatment systems. Get crystal clear, healthy water with KARS
-                  advanced filtration technology.
+                  Kishor All RO Services, we believe in the transformative power
+                  of pure water Our journey began with a simple yet profound
+                  vision to make clean safe and great-tasting water accessible
+                  to all. Well-trained and expert professional Get a 100 %
+                  after-service warranty Timely services right at your doorway
+                  Services at 10% lower price than the market
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -120,44 +123,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Trust Indicators */}
-      <section className="py-12 bg-white border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <p className="text-gray-600 font-medium">
-              Trusted by Leading Organizations
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center opacity-60">
-            <div className="text-center">
-              <div className="bg-gray-100 h-16 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-gray-700">ISO 9001</span>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="bg-gray-100 h-16 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-gray-700">NSF Certified</span>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="bg-gray-100 h-16 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-gray-700">WQA Member</span>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="bg-gray-100 h-16 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-gray-700">EPA Approved</span>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="bg-gray-100 h-16 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-gray-700">BIS Standard</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Features Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -184,134 +149,6 @@ const Home = () => {
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Product Showcase */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Our Premium RO Systems
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose from our range of advanced reverse osmosis systems designed
-              for different needs and budgets.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 border border-blue-100">
-              <div className="text-center space-y-4">
-                <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto">
-                  <Droplets className="w-8 h-8" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900">
-                  KARS Essential
-                </h3>
-                <p className="text-gray-600">
-                  Perfect for small families and apartments
-                </p>
-                <div className="space-y-2 text-sm text-gray-700">
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>5-Stage Filtration</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>8L Storage Tank</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>TDS Controller</span>
-                  </div>
-                </div>
-                <div className="text-3xl font-bold text-blue-600">₹12,999</div>
-                <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200 relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                  Most Popular
-                </span>
-              </div>
-              <div className="text-center space-y-4">
-                <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto">
-                  <Shield className="w-8 h-8" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900">
-                  KARS Premium
-                </h3>
-                <p className="text-gray-600">
-                  Advanced system for medium to large families
-                </p>
-                <div className="space-y-2 text-sm text-gray-700">
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>7-Stage Filtration</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>12L Storage Tank</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>UV + UF Technology</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>Smart Display</span>
-                  </div>
-                </div>
-                <div className="text-3xl font-bold text-green-600">₹18,999</div>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition-colors">
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 border border-purple-100">
-              <div className="text-center space-y-4">
-                <div className="bg-purple-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto">
-                  <Users className="w-8 h-8" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900">
-                  KARS Commercial
-                </h3>
-                <p className="text-gray-600">
-                  High-capacity system for offices and businesses
-                </p>
-                <div className="space-y-2 text-sm text-gray-700">
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>9-Stage Filtration</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>25L Storage Tank</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>Auto-Flush System</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>Remote Monitoring</span>
-                  </div>
-                </div>
-                <div className="text-3xl font-bold text-purple-600">
-                  ₹35,999
-                </div>
-                <button className="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700 transition-colors">
-                  Learn More
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </section>

@@ -82,9 +82,15 @@ const About = () => {
                 About <span className="text-cyan-400">KARS</span>
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                For over 15 years, KARS has been the trusted name in water
-                treatment solutions, bringing pure, clean water to thousands of
-                homes and businesses across the region.
+                Kishor All Ro Services we believe in the transformative power of
+                pure water Our journey began with a simple yet profound vision
+                to make clean safe and great-tasting water accessible to all We
+                are a team of dedicated professionals with a passion for water
+                purification Our expertise extends to a wide range of services
+                including RO system sales maintenance and Annual Maintenance
+                Contracts (AMC). With years of experience, we have become a
+                trusted name in the industry. Your trusted source for RO service
+                sales and AMC Serving Noida Quality water always within reach.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>

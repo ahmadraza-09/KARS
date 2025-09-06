@@ -8,6 +8,9 @@ import {
   Building,
   Phone,
   CheckCircle,
+  Cone,
+  Bubbles,
+  Plus,
 } from "lucide-react";
 
 const Services = () => {
@@ -23,7 +26,7 @@ const Services = () => {
         "Professional installation",
         "System testing & commissioning",
       ],
-      price: "Starting from ₹15,000",
+      price: "Contact for quote",
     },
     {
       icon: <TestTube className="w-12 h-12 text-green-600" />,
@@ -36,7 +39,7 @@ const Services = () => {
         "Bacteria & virus detection",
         "Heavy metal screening",
       ],
-      price: "₹500 per test",
+      price: "Contact for quote",
     },
     {
       icon: <Wrench className="w-12 h-12 text-orange-600" />,
@@ -49,20 +52,59 @@ const Services = () => {
         "Performance optimization",
         "Emergency repairs",
       ],
-      price: "₹1,500 per service",
+      price: "Contact for quote",
     },
     {
       icon: <Shield className="w-12 h-12 text-purple-600" />,
-      title: "System Upgrade",
+      title: "RO AMC Services",
       description:
-        "Upgrade your existing water treatment system with latest technology and features.",
+        "If any part of your water purifier gets damaged and needs replacement then it will be done without any delay at your place.",
       features: [
         "Technology assessment",
         "System modernization",
         "Capacity enhancement",
         "Efficiency improvement",
       ],
-      price: "Custom quotation",
+      price: "Contact for quote",
+    },
+    {
+      icon: <Cone className="w-12 h-12 text-purple-600" />,
+      title: "RO Filter Change",
+      description:
+        "RO Water Purifier Filter Replacement makes your Water purifier durable and long lasting We have trained Service technician to replace your filter correctly.",
+      features: [
+        "Technology assessment",
+        "System modernization",
+        "Capacity enhancement",
+        "Efficiency improvement",
+      ],
+      price: "Contact for quote",
+    },
+    {
+      icon: <Bubbles className="w-12 h-12 text-purple-600" />,
+      title: "RO Water Purifier Repair",
+      description:
+        "The fundamental and most crucial step in ensuring lifespan and good health is to service and maintain your water purifier. Not only will the water purifier function wonderfully",
+      features: [
+        "Technology assessment",
+        "System modernization",
+        "Capacity enhancement",
+        "Efficiency improvement",
+      ],
+      price: "Contact for quote",
+    },
+    {
+      icon: <Plus className="w-12 h-12 text-purple-600" />,
+      title: "RO Installation",
+      description:
+        "Installation of RO Water Purifier needs expert service technician and we have trained Service Technician for RO Water Purifier Installation Services.",
+      features: [
+        "Technology assessment",
+        "System modernization",
+        "Capacity enhancement",
+        "Efficiency improvement",
+      ],
+      price: "Contact for quote",
     },
     {
       icon: <Home className="w-12 h-12 text-red-600" />,
@@ -75,7 +117,7 @@ const Services = () => {
         "Counter-top filters",
         "Multi-stage filtration",
       ],
-      price: "₹8,000 onwards",
+      price: "Contact for quote",
     },
     {
       icon: <Building className="w-12 h-12 text-indigo-600" />,
@@ -185,7 +227,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Complete Water Treatment Solutions
+              Complete Water Purifying Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From residential to commercial applications, we have the expertise
@@ -243,22 +285,33 @@ const Services = () => {
               We provide comprehensive water treatment services across multiple
               cities and regions.
             </p>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We serve the all Noida Areas
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              "Mumbai & Suburbs",
-              "Delhi NCR",
-              "Bangalore",
-              "Chennai",
-              "Hyderabad",
-              "Pune",
-              "Kolkata",
-              "Ahmedabad",
-              "Jaipur",
-              "Lucknow",
-              "Kanpur",
-              "Nagpur",
+              "Sector-62",
+              "Sector-18",
+              "Sector-15",
+              "Sector-16",
+              "Sector-50",
+              "Sector-137",
+              "Sector-150",
+              "Sector-75",
+              "Sector-76",
+              "Sector-78",
+              "Sector-100",
+              "Sector-128",
+              "Sector-132",
+              "Sector-135",
+              "Sector-140A",
+              "Sector-142",
+              "Sector-143",
+              "Sector-93",
+              "Sector-62A",
+              "Noida-Greater Noida Expressway",
             ].map((city, index) => (
               <div
                 key={index}
@@ -397,7 +450,7 @@ const Services = () => {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/3964341/pexels-photo-3964341.jpeg"
+                src="https://www.apextechnology.co.in/wp-content/uploads/2017/03/WhatsApp-Image-2023-06-20-at-1.48.42-PM.jpeg"
                 alt="Service Team"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />

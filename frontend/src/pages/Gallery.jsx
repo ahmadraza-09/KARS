@@ -7,7 +7,7 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      src: "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBV5kY8ZSEhMGKU5TLjLRlMv6ZNTtkh2cuDw&s",
       title: "Under-Sink RO System Installation",
       category: "Residential",
       description:
@@ -15,14 +15,14 @@ const Gallery = () => {
     },
     {
       id: 2,
-      src: "https://images.pexels.com/photos/3964341/pexels-photo-3964341.jpeg",
+      src: "https://waterlineengineering.com/wp-content/uploads/2020/09/COMMERCIAL-WATER-TREATMENT-PLANT-1.png",
       title: "Commercial Water Treatment Plant",
       category: "Commercial",
       description: "Large-scale water treatment facility for office complex",
     },
     {
       id: 3,
-      src: "https://images.pexels.com/photos/1109543/pexels-photo-1109543.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfAetu3-sVZ_4bG84Uvy8efPIWF6VJmJf-Q&s",
       title: "Whole House Water System",
       category: "Residential",
       description:
@@ -30,14 +30,14 @@ const Gallery = () => {
     },
     {
       id: 4,
-      src: "https://images.pexels.com/photos/2078471/pexels-photo-2078471.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnrGfWOOVirwXmGkTdtRsHgUquNUCQzev58w&s",
       title: "Water Quality Testing Lab",
       category: "Testing",
       description: "Professional water analysis and testing equipment",
     },
     {
       id: 5,
-      src: "https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeFr1il7kFAm6YUuVkbmNzTIqPP_-keX98w&s",
       title: "Industrial RO Plant",
       category: "Industrial",
       description:
@@ -45,7 +45,7 @@ const Gallery = () => {
     },
     {
       id: 6,
-      src: "https://images.pexels.com/photos/3964341/pexels-photo-3964341.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHx3qB8XO3evnDPqr2gGjI9JJK8njOa0GGRQ&s",
       title: "Kitchen Counter RO System",
       category: "Residential",
       description:
@@ -53,21 +53,21 @@ const Gallery = () => {
     },
     {
       id: 7,
-      src: "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-LvTYVYuMNAnUqwV-lWxdKwj--QJYIPBesA&s",
       title: "Restaurant Water Treatment",
       category: "Commercial",
       description: "Custom water treatment solution for restaurant chain",
     },
     {
       id: 8,
-      src: "https://images.pexels.com/photos/1109543/pexels-photo-1109543.jpeg",
+      src: "https://serviceondoors.com/images/Uploads/Blog/29b97b9a-b1c5-da52-80ad-bc73fd7c838b_screen-0.jpg",
       title: "Filter Maintenance Service",
       category: "Maintenance",
       description: "Professional maintenance and filter replacement service",
     },
     {
       id: 9,
-      src: "https://images.pexels.com/photos/2078471/pexels-photo-2078471.jpeg",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4A_HxtPun9klZ_uwwWm2YrakBg6cgSJ3Afg&s",
       title: "Hospital Water System",
       category: "Healthcare",
       description:
@@ -173,7 +173,7 @@ const Gallery = () => {
                     alt={item.title}
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-transparent bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                     <button
                       onClick={() => setSelectedImage(item.src)}
                       className="opacity-0 group-hover:opacity-100 bg-white text-gray-900 p-2 rounded-full hover:bg-gray-100 transition-all duration-200"
@@ -307,7 +307,7 @@ const Gallery = () => {
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="https://images.pexels.com/photos/3964341/pexels-photo-3964341.jpeg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeFr1il7kFAm6YUuVkbmNzTIqPP_-keX98w&s"
                   alt="Corporate Campus"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
