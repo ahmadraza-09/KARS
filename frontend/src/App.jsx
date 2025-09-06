@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import ScrollToTop from "./components/scrollToTop";
-import About from "./pages/about";
-import Services from "./pages/services";
-import Contact from "./pages/contact";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 import Blogs from "./pages/Blogs";
 import Gallery from "./pages/Gallery";
 
